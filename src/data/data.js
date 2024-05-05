@@ -10,7 +10,7 @@ export const data = [
   {
     id: 2,
     img: "https://i.pinimg.com/originals/1f/7a/29/1f7a290cb762df3a72143ab782d7b0b9.png",
-    title: "Conatct Manager App",
+    title: "Contact Manager App",
     desc: "Manage contacts seamlessly with Contact Keeper: Add, edit, search, and access them instantly across devices. ",
     link: "https://contact-app-blue-ten.vercel.app/",
     git: "https://github.com/1sainiamit/contact-app",
