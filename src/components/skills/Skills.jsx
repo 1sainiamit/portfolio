@@ -4,9 +4,9 @@ import SkillBox from "../../chip/SkillBox";
 import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
 import {
   SiTailwindcss,
-  SiFirebase,
   SiMongodb,
   SiExpress,
+  SiNextdotjs,
 } from "react-icons/si";
 import { GrCode } from "react-icons/gr";
 import { FaReact } from "react-icons/fa";
@@ -38,15 +38,19 @@ const Skills = () => {
               className="progress flex items-center h-[100%] justify-end md:justify-center"
             >
               <div className=" flex flex-col gap-6  w-3/4  my-5 md:w-[90%]">
-                <ProgressBar logo={<FaReact />} name={"React Js"} value={90} />
-                <ProgressBar logo={<IoLogoHtml5 />} name={"HTML"} value={95} />
-                <ProgressBar logo={<IoLogoCss3 />} name={"CSS"} value={88} />
-
+                <ProgressBar logo={<FaReact />} name={"Next Js"} value={90} />
                 <ProgressBar
                   logo={<SiTailwindcss />}
                   name={"Tailwind CSS"}
                   value={80}
                 />
+                <ProgressBar
+                  logo={<IoLogoHtml5 />}
+                  name={"Shadcn"}
+                  value={95}
+                />
+                <ProgressBar logo={<FaReact />} name={"Node Js"} value={90} />
+                <ProgressBar logo={<FaReact />} name={"MongoDB"} value={90} />
               </div>
             </div>
           </div>
@@ -54,11 +58,15 @@ const Skills = () => {
           <div className="right relative flex-1 flex flex-wrap p-5 gap-10 items-center justify-center sm:w-full">
             <div className="first2 flex flex-col gap-10">
               <SkillBox
-                logo={<FaReact />}
+                className=""
+                logo={
+                  <SiNextdotjs className=" text-white bg-black rounded-full h-fit border-white overflow-hidden" />
+                }
                 black={"black"}
                 white={"white"}
-                skill={"React Js"}
+                skill={"Next Js"}
               />
+
               <SkillBox
                 logo={<IoLogoNodejs />}
                 black={"white"}
@@ -75,20 +83,11 @@ const Skills = () => {
               />
               <SkillBox
                 className=""
-                logo={<SiFirebase />}
+                logo={<SiMongodb />}
                 black={"black"}
                 white={"white"}
-                skill={"Firebase"}
+                skill={"MongoDB"}
               />
-              {/* <SkillBox
-                className=""
-                logo={
-                  <SiNextdotjs className=" text-white bg-black rounded-full h-fit border-white overflow-hidden" />
-                }
-                black={"black"}
-                white={"white"}
-                skill={"Next Js"}
-              /> */}
             </div>
           </div>
         </div>

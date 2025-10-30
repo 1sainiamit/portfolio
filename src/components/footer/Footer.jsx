@@ -34,7 +34,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="sm:text-[12px] text-white">
-          | Copyright &copy; <span>2024 </span> Amit
+          | Copyright &copy; <span>2025 </span> Amit
           <a href="#"></a> |
         </div>
       </div>

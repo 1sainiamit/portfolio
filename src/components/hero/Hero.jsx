@@ -4,7 +4,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { TypeAnimation } from "react-type-animation";
 import resumePDF from "../../assets/Resume.pdf";
-import mine from "../../assets/mine.jpeg";
+import mine from "../../assets/mine.jpg";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Hero = () => {
@@ -23,7 +23,7 @@ const Hero = () => {
             <TypeAnimation
               data-aos="fade-up"
               sequence={[
-                "Front-end Developer",
+                "Full Stack Developer",
                 2000,
                 "Glad To have you here! ",
                 2000,

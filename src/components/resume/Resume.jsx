@@ -23,9 +23,9 @@ const Resume = () => {
             className=" w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2"
           >
             <legend className="cursor-pointer w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 bg-black rounded-3xl py-1 px-8 font-semibold text-xl text-white hover:text-black hover:bg-white">
-              Achievements
+              Experience
             </legend>
-            <div className=" relative">
+            <div className="relative flex flex-col gap-4">
               {/* design */}
               <div className="design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
                 <div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-black"></div>
@@ -35,22 +35,38 @@ const Resume = () => {
               {/* design */}
               <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-black shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
                 <h1 className="text-[1.4rem] font-semibold sm:text-xl ">
-                  Front-end Developer
+                  Associate Full Stack Developer
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base transition-2s hover:scale-95"></span>
                 <span className=" text-[.9rem] font-semibold text-black sm:text-base">
-                  CipherSchools - january 2023 - february 2023
+                  Aaizel International Technologies Pvt Ltd - September 2025 -
+                  Present
                 </span>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
-                  Achieved React.js certification, showcasing proficiency in the
-                  popular JavaScript library for building user interfaces.
-                  Demonstrated ability to create dynamic and interactive web
-                  applications, enhancing user experience and interactivity.
-                  Leveraging React's component-based architecture, I've
-                  developed scalable and maintainable solutions. This
-                  certification reflects dedication to mastering new
-                  technologies and a commitment to delivering high-quality
-                  projects.
+                  As an Associate Full Stack Developer at Aaizel International
+                  Technologies, I built real-time dashboards using Next.js,
+                  React.js, and Socket.io for instant IoT alerts, integrated
+                  OpenLayers maps for live route tracking, and implemented RBAC
+                  with Razorpay integration, focusing on performance,
+                  scalability, and clean modular architecture.
+                </p>
+              </div>
+              <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-black shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
+                <h1 className="text-[1.4rem] font-semibold sm:text-xl ">
+                  Full Stack Developer Intern
+                </h1>
+                <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base transition-2s hover:scale-95"></span>
+                <span className=" text-[.9rem] font-semibold text-black sm:text-base">
+                  Aaizel International Technologies Pvt Ltd - April 2025 -
+                  October 2025
+                </span>
+                <p className=" text-[.9rem] text-justify break-words text-gray-500">
+                  As a Full Stack Developer Intern at Aaizel International
+                  Technologies, I built a government analytics dashboard using
+                  Next.js (SSR), Redux Toolkit, and Tailwind CSS to visualize
+                  and filter real-time news data. I also integrated React
+                  Leaflet maps for geospatial insights and contributed to
+                  backend CRUD operations with Node.js and Express.js.
                 </p>
               </div>
             </div>
@@ -85,7 +101,10 @@ const Resume = () => {
                 <p className=" text-[.9rem] text-justify text-gray-500">
                   Pursued a comprehensive Bachelor of Technology degree with a
                   focus on Computer Science and Engineering. Gained a strong
-                  academic foundation in programming and software development.
+                  academic foundation in programming, algorithms, and software
+                  development. Gained expertise in JavaScript, npm, and React.
+                  learned how to build web applications using a variety of
+                  technologies.
                 </p>
               </div>
             </div>
