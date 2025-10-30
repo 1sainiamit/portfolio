@@ -58,7 +58,7 @@ const Resume = () => {
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base transition-2s hover:scale-95"></span>
                 <span className=" text-[.9rem] font-semibold text-black sm:text-base">
                   Aaizel International Technologies Pvt Ltd - April 2025 -
-                  October 2025
+                  August 2025
                 </span>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
                   As a Full Stack Developer Intern at Aaizel International
