@@ -46,8 +46,10 @@ export function Hero() {
           <Button size="lg" className="w-full sm:w-auto bg-primary text-white text-lg h-14 px-6 border-2 border-black neo-brutal-shadow hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none hover:bg-primary transition-all rounded-md font-bold">
             View My Work
           </Button>
-          <Button size="lg" variant="outline" className="w-full sm:w-auto bg-white text-black text-lg h-14 px-6 border-2 border-black neo-brutal-shadow hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none hover:bg-white transition-all rounded-md font-bold">
-            Download Resume
+          <Button asChild size="lg" variant="outline" className="w-full sm:w-auto bg-white text-black text-lg h-14 px-6 border-2 border-black neo-brutal-shadow hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none hover:bg-white transition-all rounded-md font-bold">
+            <a href="/resume.pdf" download="Amit_Saini_Resume.pdf">
+              Download Resume
+            </a>
           </Button>
         </div>
       </div>
